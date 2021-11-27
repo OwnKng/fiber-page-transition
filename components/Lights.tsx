@@ -1,7 +1,5 @@
 import { useRef } from "react"
 import { useFrame, useThree } from "@react-three/fiber"
-import * as THREE from "three"
-import { useHelper } from "@react-three/drei"
 
 const Lights = () => {
   const ref = useRef()
