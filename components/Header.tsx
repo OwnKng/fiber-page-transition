@@ -7,12 +7,14 @@ type headerType = {
 
 const Header = ({ className }: headerType) => (
   <div className={className}>
-    <h1>3D ventures</h1>
+    <h1>
+      <Link href='/'>evergreen terrace</Link>
+    </h1>
     <nav>
       <ul>
         <li>
-          <Link href='/about'>
-            <a>About</a>
+          <Link href='/tech'>
+            <a>tech</a>
           </Link>
         </li>
         <li>
@@ -30,11 +32,14 @@ export default styled(Header)/*css*/ `
   display: flex;
   text-transform: uppercase;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
   h1 {
     margin: 0px;
     padding: 1rem 0.5rem;
-    font-weight: 200;
+    font-size: 1.5rem;
   }
 
   ul {

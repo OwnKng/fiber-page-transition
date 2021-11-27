@@ -1,6 +1,6 @@
 const App = () => (
   <>
-    <h1>Hello wold!</h1>
+    <h1>the next generation of real estate</h1>
   </>
 )
 
